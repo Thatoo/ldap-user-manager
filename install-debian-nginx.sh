@@ -72,7 +72,7 @@ echo -e "server {
 }
 ">/etc/nginx/sites-available/default
 echo -e "fastcgi_param   LDAP_URI        $YOUR_LDAP_URI;
-fastcgi_param   LDAP_BASE_DN    $YOUR_LDAP_ADMIN_BIND_DN;
+fastcgi_param   LDAP_BASE_DN    $YOUR_LDAP_BASE_DN;
 fastcgi_param   LDAP_ADMIN_BIND_DN      $YOUR_LDAP_ADMIN_BIND_DN;
 fastcgi_param   LDAP_ADMIN_BIND_PWD     $YOUR_LDAP_ADMIN_BIND_PWD;
 fastcgi_param   LDAP_ADMINS_GROUP       $YOUR_LDAP_ADMINS_GROUP;
